@@ -17,6 +17,7 @@ function App() {
   const [submitted, setSubmitted] = useState(false);
   const handleSearch = (e) => {
     setSubmitted(true);
+    setDefn("");
     e.preventDefault();
     const data = new FormData(e.target);
     const payload = Object.fromEntries(data);
