@@ -29,7 +29,7 @@ function App() {
     }
   }
   return <div>
-    <h1>Dictionary</h1>
+    <h1>Dictionary App</h1>
     <form onSubmit={handleSearch}>
       <input required type="text" name="word" placeholder='Search for a word...' />
       <button type="submit">Search</button>
